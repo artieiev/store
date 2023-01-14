@@ -27,6 +27,7 @@ urlpatterns = [
     path('', index, name="index"),
     path('products/', include('products.urls', namespace='products')),
     path('users/', include('users.urls', namespace='users')),
+    path('api/', include('lesson_9.urls'))
 ]
 
 if settings.DEBUG:
