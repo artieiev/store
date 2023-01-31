@@ -42,7 +42,6 @@ INSTALLED_APPS = [
 
     'products',
     'users',
-    'lesson_9',
 ]
 
 MIDDLEWARE = [
